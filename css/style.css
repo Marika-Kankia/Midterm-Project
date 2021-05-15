@@ -1,0 +1,176 @@
+/* * {
+    box-sizing: border-box;
+  }
+   */
+  /* Style the search field */
+   form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 0.5px solid grey;
+    float: left;
+    width: 20%;
+    background: #f1f1f1;
+    border-radius: 10px;
+   }
+
+  
+  /* .search{
+    
+    padding-top: 20px;
+}
+.main-page{
+    max-width: 1920px;
+}
+aside{
+    display:inline-block;
+    height: 1080px;
+    width: 15%;
+    background-color: black;
+    position: relative;
+}
+  */
+ 
+
+/* .header-right{
+    display: flex;
+} */
+/* .header-right img{
+    padding-left: 1000px;
+}
+.container{
+    width: 70%;
+    margin:0 auto;
+}
+.header-left{
+    display: flex;
+}
+ h1{
+     position: absolute;
+     color:cornsilk;
+     margin-top: 20px;
+     margin-left: 10px;
+ }  */
+ .home{
+    width: 186px;
+    height: 44px;
+   
+    border-radius: 5px;
+    color: #F0F0F0;
+    font-size: 17px;
+    
+    background-image: linear-gradient(to right,#FF2288);
+    cursor: pointer;
+    
+ }
+ .home a{
+     text-decoration: none;
+     font-size: 16px;
+ }
+.button-1{
+    width: 186px;
+    height: 44px;
+   
+    border-radius: 5px;
+    color: #F0F0F0;
+    font-size: 17px;
+    
+    background-color: black;
+    background-image: linear-gradient(to right);
+    cursor: pointer;
+    margin:20px 0;
+    border: hidden;
+    cursor: pointer;
+    outline: none;
+    }
+ .button{
+       margin-top:40px;
+}
+    .design{
+        margin:30px 20px;
+    }
+    
+   
+body{
+    height: 2189px;
+}
+.wrapper{
+    display: flex;
+    position: relative;
+
+}
+.wrapper,.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    
+}
+h1{
+    color: white;
+    font-size: 24px;
+}
+h3{
+    color:white;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container{
+    width: 70%;
+    margin:0 auto;
+    margin-top:20px;
+}
+.header{
+    display: flex;
+}
+button{
+    border-radius: 15px;
+    width: 100px;
+    height: 56px;
+    background-color: #FF2288;
+    margin:10px 0;
+}
+.icon-1{
+    width: 44px;
+    vertical-align: middle;
+    padding-right: 20px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+.following p{
+    color:white
+    
+}
+.names{
+    display: inline-block;
+    color:white;
+}
+.load a{
+    font-size: 14px;
+    text-decoration: none;
+    color:white;
+
+}
+.load {
+    padding: 20px;
+    margin: 10px;
+    margin-left: 20px;
+}
+/* @media(max-width:1024px){
+    .search{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+    .following{
+        display: none;
+    }
+    .wrapper{
+        width: 100%;
+    }
+} */
+
+
