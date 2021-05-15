@@ -60,7 +60,14 @@ aside{
     
     background-image: linear-gradient(to right,#FF2288);
     cursor: pointer;
+    background-color: #FF2288;
     
+ }
+ .search-icon,.design,header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2%;
  }
  .home a{
      text-decoration: none;
@@ -90,9 +97,7 @@ aside{
     }
     
    
-body{
-    height: 2189px;
-}
+
 .wrapper{
     display: flex;
     position: relative;
@@ -117,19 +122,22 @@ h3{
 }
 
 .container{
-    width: 70%;
+    width: 100%;
     margin:0 auto;
-    margin-top:20px;
+    max-width: 1920px;
+    display: flex;
+    
 }
 .header{
     display: flex;
+    margin-top: 30px;
 }
-button{
+.upload{
     border-radius: 15px;
     width: 100px;
     height: 56px;
     background-color: #FF2288;
-    margin:10px 0;
+    border:none;
 }
 .icon-1{
     width: 44px;
@@ -172,5 +180,4 @@ button{
         width: 100%;
     }
 } */
-
 
