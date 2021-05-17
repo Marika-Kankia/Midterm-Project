@@ -110,7 +110,7 @@ aside{
 .wrapper,.sidebar{
     position: fixed;
     width: 15%;
-    height: 1000px;
+    height: 750px;
     background-color: black;
     /* padding:10px 0; */
     
@@ -125,10 +125,12 @@ aside{
 }
 .header{
     display: flex;
+    justify-content: space-between;
+    padding: 2%;
     
 }
 .main-content{
-    width: 65%;
+    width: 80%;
     margin-left: 20%;
 }
 .mid-container-1{
@@ -139,6 +141,10 @@ aside{
 }
 .mid-container-3{
     display: flex;
+    background-color: #FAFAFA;
+}
+.mid-container-3 div{
+    padding:15px;
 }
 .header{
     display: flex;
@@ -166,19 +172,6 @@ h3{
     padding-bottom: 10px;
 }
 
-.container{
-    width: 100%;
-    margin:0 auto;
-    max-width: 1920px;
-    /* display: flex; */
-    
-}
-header{
-    width:80%;
-    position: fixed;
-    right:0;
-    z-index:2;
-}
 /* .header-right{
     display: flex;
 } */
@@ -231,3 +224,101 @@ header{
     }
 } */
 
+
+
+
+.articles-nav ul{
+    display: flex;
+}
+.articles-nav{
+    display: flex;
+}
+/* .filter{
+    display: flex;
+} */
+
+.articles-nav ul li{
+    padding:20px;
+}
+.articles-nav ul li button{
+    border:hidden;
+    background-color: white;
+    font-size: 16px;
+    padding:5px;
+}
+.articles-nav ul .all button{
+    background-color:#F2F2F2;
+    padding:5px;
+    font-size: 16px;;
+}
+.articles-nav{
+    margin-left:40px;
+}
+.articles-nav div{
+    display: flex;
+}
+.box-1 p{
+    padding-left: 30px;
+}
+.load {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:40px;
+    
+}
+.load button{
+    width:200px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+
+}
+.load-more{
+    font-size: 16px;
+}
+.filter button{
+    height: 25px;
+    margin-top: 20px;
+    padding-left:25px;
+    width: 70px;
+    background: url(../images/1-18.png) no-repeat;
+    float: left;
+    border-radius: 5px;
+    border-color: #F2F2F2;
+}
+
+
+.upload{
+    border-radius: 15px;
+    width: 100px;
+    height: 56px;
+    background-color: #FF2288;
+    border:none;
+}
+.icon-1{
+    width: 44px;
+    vertical-align: middle;
+    padding-right: 20px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+.following p{
+    color:white
+    
+}
+.names{
+    display: inline-block;
+    color:white;
+}
+.load a{
+    font-size: 14px;
+    text-decoration: none;
+    color:white;
+
+}
+.load {
+    padding: 20px;
+    margin: 10px;
+    margin-left: 20px;
+}
