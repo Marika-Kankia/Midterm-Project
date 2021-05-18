@@ -415,9 +415,6 @@ input#openmenu{
 .designers-box h4{
     padding:10px;
 }
-.designers-box{
-    
-}
 
 
 
@@ -450,4 +447,33 @@ h1{
 aside h3{
     font-size: 12px;
     font-family: 'Avenir 85';
+}
+.following p{
+    font-size: 16px;
+    font-family: 'Avenir LT Std 45 Book';
+}
+.load a{
+    font-size: 14px;
+    font-family: 'Avenir 85';
+}
+/* .designers-box h4{
+    font-size: 32px;
+    font-family: 'Avenir 85';
+} */
+.top h2{
+    font-size:32px;
+    font-family: 'Avenir 85';
+}
+.top h3{
+    font-size:14px;
+    font-family: 'Avenir 85';
+}
+.mid-container-3 div h4{
+    font-size: 14px;
+    font-family: 'Avenir 85';
+}
+.mid-container-3 div p{
+    font-size: 12px;
+    font-family: 'Avenir LT Std 45 Book';
+    opacity: 0.9;
 }
