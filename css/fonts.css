@@ -23,4 +23,17 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Avenir 85';
+    src: url('../fonts/Avenir-Heavy.eot');
+    src: url('../fonts/Avenir-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Avenir-Heavy.woff2') format('woff2'),
+        url('../fonts/Avenir-Heavy.woff') format('woff'),
+        url('../fonts/Avenir-Heavy.ttf') format('truetype'),
+        url('../fonts/Avenir-Heavy.svg#Avenir-Heavy') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 
