@@ -76,7 +76,11 @@ aside{
     background-color: #FF2288;
     
  }
-
+.home:hover{
+    background: chartreuse;
+    color:darkblue;
+    transform: scale(1.1);
+}
  .home a{
      text-decoration: none;
      font-size: 16px;
@@ -96,12 +100,20 @@ aside{
     border: hidden;
     cursor: pointer;
     outline: none;
+    width: 186px;
+    }
+    .button-1:hover{
+        background-color: #FF2288;
+        transform: scale(1.1);
     }
  .button{
        margin-top:40px;
 }
     .design{
         margin:30px 20px;
+    }
+    .search-icon img:hover{
+        transform: scale(1.1);
     }
     
 .wrapper{
@@ -168,7 +180,7 @@ aside{
 }
 .mid-container-4{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .mid-container-5{
@@ -183,7 +195,25 @@ aside{
     width: 25%;
     height: 55px;
     position: relative;
+    border-radius:10px;
+    border:none;
+
 }
+.search-icon:hover{
+    transform: scale(1.1);
+}
+.button-2{
+    border:none;
+}
+.button-2:hover{
+    transform: scale(1.1);
+}
+.header-right a:nth-child(1){
+    color: #FF2288;
+    text-decoration: none;
+    padding:5px;
+}
+
 
 .mid-section-left-side{
     display: flex;
@@ -224,6 +254,9 @@ h3{
     height: 56px;
     background-color: #FF2288;
     border:none;
+}
+.upload:hover{
+    transform: scale(1.1);
 }
 .icon-1{
     width: 50px;
