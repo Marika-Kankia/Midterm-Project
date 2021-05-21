@@ -104,20 +104,20 @@ button{
     margin-top:10%;
 }
 .following{
-    margin-top:87px;
+    margin-top:85px;
     margin-bottom:10%;
 }
 .following h3{
     padding-left:30px;
     margin-bottom: 30px;
   
-    line-height: 16px;
+    line-height: 15px;
     text-transform: uppercase;
 }
 .today{
     display: flex;
     
-    line-height: 32px;
+    line-height: 30px;
     text-decoration: none;
 }
 
@@ -126,7 +126,7 @@ button{
 }
 .load-more{
     
-    line-height: 19px;
+    line-height: 20px;
 }
 /* header */
 
@@ -262,15 +262,8 @@ button{
     margin-top:50px;
     justify-content: space-between;
 }
-.view-designers a{
-    color: #222222;
-    opacity: 30%;
-   
-}
-.view-designers h3{
-    color: #222222;
-   
-}
+
+
 .top-designers div{
     width:100px;
     flex-direction: column;
@@ -288,7 +281,7 @@ button{
    
     color:#222222;
     opacity: 60%;
-    margin-bottom:17px;
+    margin-bottom:15px;
 }
 .top-designers button{
     width:100%;
@@ -307,13 +300,13 @@ button{
 .footer-div-1{
     display: flex;
     justify-content: space-between;
-    margin-top:69px;
+    margin-top:65px;
     margin-bottom:72px;
 }
 .footer-div-1 h4{
     color:#222222;
     font-size: 16px;
-    font-family: A-Heavy;
+    font-family: 'Avenir 85';
     margin-bottom: 34px;
 }
 .footer-div-1 li{
@@ -336,10 +329,10 @@ button{
 .media-icons p{
     color: #222222;
     font-size: 16px;
-    font-family: A-Black;
+    font-family: 'Avenir';
 }
 .media-icons span{
-    font-family: A-Book;
+    font-family: 'Avenir 85';
 }
 /* second page */
 
@@ -357,7 +350,7 @@ table{
 }
 .quantity td{
     font-size: 16px;
-    font-family: A-Heavy;
+    font-family: 'Avenir 85';
     color:#AFAFAF;
     vertical-align: middle;
 }
@@ -371,19 +364,16 @@ thead{
     height: 80px;
     border-bottom: 1px solid #E7E7E7;
     font-size: 18px;
-    font-family: A-Heavy;
+    font-family: 'Avenir 85';
     color:#111111;
 }
 tbody tr{
     transition: all 0.2s linear;
 }
-tbody tr:hover td:first-child{
-    border-radius: 12px 0 0 12px;
-    padding-left:3%;
+.box-1 p{
+    color:#111111;
 }
-tbody tr:hover td:last-child{
-    border-radius: 0 12px 12px 0;;
-}
+
 
 
 
@@ -398,6 +388,14 @@ tbody tr:hover td{
     color:#9c22ff;
     
 }
+tbody tr:hover td:first-child{
+    border-radius: 12px 0 0 12px;
+    padding-left:3%;
+}
+tbody tr:hover td:last-child{
+    border-radius: 0 12px 12px 0;;
+}
+
 
 
 .first-section-side button:hover{
@@ -458,6 +456,9 @@ tbody tr:hover td{
     transform: scale(1.1);
     
 }
+.top-designers div{
+    transform: scale(1.1);
+}
 
 
 
@@ -509,7 +510,7 @@ tbody tr:hover td{
 .box-1 p{
     font-size: 18px;
 }
-.media-icons div span{
+.media-icons div p{
     font-size: 16px;
     color:#222222;
     font-family: 'Avenir LT Std';
@@ -523,6 +524,18 @@ h4{
 .footer-div-1 ul li{
     font-size: 16px;
     color:#222222;
+    font-family: 'Avenir 85';
+}
+
+.view-designers h3{
+    color: #222222;
+    font-size: 32px;
+    font-family: 'Avenir 85';
+    
+}
+.view-designers a{
+    color: #222222;
+    font-size: 14px;
     font-family: 'Avenir 85';
 }
 
@@ -569,4 +582,7 @@ h4{
         display: none;
     }
     
+}
+.aside{
+    overflow: hidden;
 }
