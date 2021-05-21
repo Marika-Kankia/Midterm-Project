@@ -90,7 +90,7 @@ button{
     text-transform: capitalize;
 }
 
-.load-more, .top-designers button, .first-section-side button, .navbar a, .following a, .box-1{
+.load-more, .top-designers button, .first-section-side button, .navbar a, .following a{
     transition: all 0.3s linear;
 }
 .navbar img, .following img{
@@ -265,7 +265,6 @@ button{
 
 
 .top-designers div{
-    width:100px;
     flex-direction: column;
     margin: 1%;
     text-align: center;
@@ -581,7 +580,21 @@ h4{
     .button-1,.upload{
         display: none;
     }
-    
+    .top-image{
+        width: 77px;
+    }
+    .top-designers div{
+        margin:3%;
+    }
+    .designers-section{
+        background-color: white;
+    }
+    .main-content{
+        margin-left:30px;
+    }
+    header{
+        margin-left:20px;
+    }
 }
 .aside{
     overflow: hidden;
