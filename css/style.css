@@ -341,7 +341,7 @@ table{
     text-align: left;
 }
 .quantity tr{
-    height:72px;
+    height:70px;
     border-bottom: 1px solid #E7E7E7;
 }
 .quantity th{
@@ -367,7 +367,7 @@ thead{
     color:#111111;
 }
 tbody tr{
-    transition: all 0.2s linear;
+    transition: all 0.3s linear;
 }
 .box-1 p{
     color:#111111;
