@@ -9,26 +9,26 @@
     width:14%;
     height:100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #222222;
     padding:0 2%;
     position: sticky;
     top: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #222222;
+  
 }
 .main-side{
     width:86%;
 }
 header{
-    height:116px;
+    height:87px;
     top: 0;
     padding:2%;
-}
-header{
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .aside-div{
     display: flex;
     justify-content: space-around;
@@ -63,7 +63,7 @@ footer, .quantity, .articles-menu-first-section-side, .content-articles{
 button{
     cursor: pointer;
 }
-/* aside */
+
 .logo{
     flex-wrap: wrap;
     margin-top:42px;
@@ -104,13 +104,12 @@ button{
     margin-top:10%;
 }
 .following{
-    margin-top:85px;
+    margin-top:45px;
     margin-bottom:10%;
 }
 .following h3{
-    padding-left:30px;
+    padding-left:20px;
     margin-bottom: 30px;
-  
     line-height: 15px;
     text-transform: uppercase;
 }
@@ -128,7 +127,7 @@ button{
     
     line-height: 20px;
 }
-/* header */
+
 
 .search{
     width:27%;
@@ -139,9 +138,8 @@ button{
     padding:0 1%;
 }
 .search span{
-   
     opacity: 50%;
-    line-height: 19px;
+    line-height: 15px;
 }
 .header-right{
     width:35%;
@@ -165,8 +163,8 @@ button{
     width:10px;
 }
 .upload{
-    width:129px;
-    height:56px;
+    width:125px;
+    height:57px;
     background-color: #FF2288;
     border-radius: 12px;
 }
@@ -174,11 +172,10 @@ button{
     color:white;
 }
 
-
 .header-right a, .header-right div, .header-right button{
     margin-right:1%;
 }
-/* section */
+
 .content-articles{
     flex-wrap: wrap;
     justify-content: space-between;
@@ -196,7 +193,6 @@ button{
     margin-right:40px;
     font-size:16px;
     line-height: 21px;
-   
     text-align: center;
 }
 
@@ -219,7 +215,7 @@ button{
 }
 .box-1{
     display: block;
-    width:289px;
+    width:288px;
     height:278px;
 }
 .box-1 img{
@@ -252,7 +248,6 @@ button{
 }
 
 
-/* designers */
 .designers-section{
     padding:65px 7%;
     background-color: #FAFAFA;
@@ -287,15 +282,13 @@ button{
     height:44px;
     border:1px solid #D8D8D8;
     border-radius:12px;
-   
     line-height:19px;
-   
     text-align:center;
 }
 .following-btn{
     background-color:#F2F2F2;
 }
-/* footer */
+
 .footer-div-1{
     display: flex;
     justify-content: space-between;
@@ -333,7 +326,7 @@ button{
 .media-icons span{
     font-family: 'Avenir 85';
 }
-/* second page */
+
 
 table{
     width:100%;
@@ -372,7 +365,6 @@ tbody tr{
 .box-1 p{
     color:#111111;
 }
-
 
 
 
@@ -466,8 +458,8 @@ tbody tr:hover td:last-child{
 
 .aside-div p{
     font-size: 24px;
-    font-family: 'Avenir LT Std';
     color:#FFFFFF;
+    font-family: 'Avenir';
 }
 .aside-div span{
     font-size: 24px;
@@ -514,6 +506,7 @@ tbody tr:hover td:last-child{
     color:#222222;
     font-family: 'Avenir LT Std';
 }
+
 
 h4{
     font-size: 16px;
